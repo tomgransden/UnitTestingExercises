@@ -24,6 +24,6 @@ Once you are happy you can answer these questions, you can begin writing the uni
 
 Create a folder `__tests__` inside `src/components/calender-switcher` and inside the `__tests__` folder, create a file called `calendar-switcher.test.tsx`.
 
-Now you can begin writing tests that cover the behaviour you investigated earlier. The aim is to mske sure you write enough tests to cover all the things you can do with the component.
+Now you can begin writing tests that cover the behaviour you investigated earlier. The aim is to make sure you write enough tests to cover all the things you can do with the component.
 
 You can run `npm run test` at any point to see if your tests are passing or not.
