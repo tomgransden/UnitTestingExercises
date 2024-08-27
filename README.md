@@ -20,7 +20,7 @@ Before you start writing any code, you need to understand how the component work
 - What happens when you click on an icon?
 - What are the possible modes the calendar can be in?
 
-Once you are happy you can answer these questions, you csn begin writing the unit tests needed to confirm this component is working correctly.
+Once you are happy you can answer these questions, you can begin writing the unit tests needed to confirm this component is working correctly.
 
 Create a folder `__tests__` inside `src/components/calender-switcher` and inside the `__tests__` folder, create a file called `calendar-switcher.test.tsx`.
 
