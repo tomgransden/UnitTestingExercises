@@ -2,8 +2,9 @@
 
 ## Setup
 
-Run `npm i` to install all the dependencies
-Run `npm run dev` to see the project
+- Checkout the repo and switch to the `exercise-1-creating-simple-tests` branch
+- Run `npm i` to install all the dependencies
+- Run `npm run dev` to see the project
 
 ## Exercise description
 
