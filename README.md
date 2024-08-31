@@ -31,4 +31,4 @@ To check your changes visually in the browser, you can run `npm run dev` - the e
 
 ![image info](./public/result.png)
 
-You do NOT need to make any changes to any files other than `user-welcome.test.tsx` and `user-welcome.tsx`
+You do NOT need to make any changes to any files other than `user-welcome.test.tsx` and `user-welcome.tsx` to achieve this result.
