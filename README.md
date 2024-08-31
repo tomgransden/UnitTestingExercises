@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Exercise 1 - Test Driven Development
 
-## Getting Started
+## Setup
 
-First, run the development server:
+- Checkout the repo and switch to the `exercise-2-test-driven-development` branch
+- Run `npm i` to install all the dependencies
+- Run `npm run dev` to see the project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Exercise description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Test driven development is an approach to coding that focusses on writing good quality code by writing the tests before you write the code. This can feel strange at first as you are testing something that doesn't yet work - however the end result is better quality as it has been covered in tests and all cases have a passing test.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+As a reminder, there are 3 main stages of Test Driven Development:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- RED - write a unit test that fails
+- GREEN - write the minimum code needed to make the test pass
+- REFACTOR - make the code good quality (safe in the fact that the test will fail if you break anything)
 
-## Learn More
+Follow TDD in the test file (`src/components/user-welcome/__tests__/user-welcome.test.tsx`) to gradually build up a component called UserWelcome (`src/components/user-welcome/user-welcome.tsx).
 
-To learn more about Next.js, take a look at the following resources:
+To check your changes in the browser, you can run `npm run dev` - the end result you are looking for will be the following:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![image info](./public/result.png)
