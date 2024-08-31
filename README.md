@@ -1,4 +1,4 @@
-# Exercise 1 - Test Driven Development
+# Exercise 2 - Test Driven Development
 
 ## Setup
 
