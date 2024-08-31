@@ -18,7 +18,7 @@ As a reminder, there are 3 main stages of Test Driven Development:
 
 Follow the TDD process in the test file (`src/components/user-welcome/__tests__/user-welcome.test.tsx`) to gradually build up a component called UserWelcome (`src/components/user-welcome/user-welcome.tsx). The component needs to take 2 props - `firstName`and`lastName` and both of these props can be optional (undefined).
 
-The component only needs to return a <p> tag with some text according to the following acceptance criteria:
+The component only needs to return a `p` tag with some text according to the following acceptance criteria:
 
 - If neither first name or last name exist, show "Hello!"
 - If first name exists but last name doesn't, show "Hello <firstName>"
