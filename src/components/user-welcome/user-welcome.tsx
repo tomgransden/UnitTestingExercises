@@ -1,7 +1,4 @@
-type UserWelcomeProps = {
-  firstName?: string;
-  lastName?: string;
-};
+type UserWelcomeProps = {};
 
 const UserWelcome = ({}: UserWelcomeProps) => {
   return null;
